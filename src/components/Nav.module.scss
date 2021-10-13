@@ -1,0 +1,14 @@
+.nav{
+  grid-area: nav;
+  background-color: #f2f2f2;
+}
+.item {
+
+  a{
+    color: #191b1f;
+    text-decoration: none;
+  }
+  &.active a{
+    color: goldenrod;
+  }
+}
